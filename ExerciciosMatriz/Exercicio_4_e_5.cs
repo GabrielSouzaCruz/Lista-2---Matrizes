@@ -1,6 +1,6 @@
 ﻿using System;
 using Biblioteca_Matriz;
-class Exercicio_4_e_5
+class Exercicio_4e5
  {
     static void diagonalPrinc(int[,] mat)
     {

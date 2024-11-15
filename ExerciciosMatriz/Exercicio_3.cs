@@ -1,7 +1,7 @@
 ﻿using System;
 using Biblioteca_Matriz;
 
-public class Atividade_3
+public class Exercicio_3
 {
     public static int X(int[,] matriz, int x)
     {
@@ -43,7 +43,6 @@ public class Atividade_3
         Console.WriteLine("Matriz Gerada: ");
         Matriz.mostra(matriz);
         
-
         int xenc = X(matriz, x);
 
         Console.WriteLine();

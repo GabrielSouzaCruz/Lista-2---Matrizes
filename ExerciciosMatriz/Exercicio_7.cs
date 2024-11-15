@@ -2,7 +2,6 @@
 using Biblioteca_Matriz;
 class Exercicio_7
     {
-
         static double[,] SomaM(double[,] matriz1, double[,] matriz2, int linhas, int cols)
         {
             double[,] resultado = new double[linhas, cols];
