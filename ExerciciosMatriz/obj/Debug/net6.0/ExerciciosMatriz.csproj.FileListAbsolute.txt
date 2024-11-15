@@ -12,3 +12,4 @@ C:\Users\Gabriel\source\repos\ExerciciosMatriz\ExerciciosMatriz\obj\Debug\net6.0
 C:\Users\Gabriel\source\repos\ExerciciosMatriz\ExerciciosMatriz\obj\Debug\net6.0\ExerciciosMatriz.pdb
 C:\Users\Gabriel\source\repos\ExerciciosMatriz\ExerciciosMatriz\obj\Debug\net6.0\ExerciciosMatriz.genruntimeconfig.cache
 C:\Users\Gabriel\source\repos\ExerciciosMatriz\ExerciciosMatriz\obj\Debug\net6.0\ref\ExerciciosMatriz.dll
+C:\Users\Gabriel\source\repos\ExerciciosMatriz\ExerciciosMatriz\obj\Debug\net6.0\ExerciciosMatriz.sourcelink.json

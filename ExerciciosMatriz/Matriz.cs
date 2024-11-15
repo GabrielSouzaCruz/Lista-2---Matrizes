@@ -23,17 +23,20 @@ namespace Biblioteca_Matriz
         {
             int linhas = mat.GetLength(0);
             int colunas = mat.GetLength(1);
+
             for (int i = 0; i < linhas; i++)
             {
                 for (int j = 0; j < colunas; j++)
                 {
                     Console.Write($"{mat[i, j],3} |");
                 } // fim do for colunas
+
                 Console.WriteLine();
+
             }// fim do for linhas
 
         }
-        public static void mostraf(double[,] mat)
+        public static void mostra(double[,] mat)
         {
             int linhas = mat.GetLength(0);
             int colunas = mat.GetLength(1);
@@ -43,7 +46,9 @@ namespace Biblioteca_Matriz
                 {
                     Console.Write($"{mat[i, j]:F1} |");
                 } // fim do for colunas
+
                 Console.WriteLine();
+
             }
         }
 
@@ -77,8 +82,6 @@ namespace Biblioteca_Matriz
                     mat[i, j] = random.Next(0, 100);
                     mat[i, j] = mat[i, j] * num;
                 } // fim do for colunas
-
-                Console.WriteLine();
 
             }// fim do for linhas
         }

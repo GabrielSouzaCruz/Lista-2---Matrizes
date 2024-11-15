@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|c:\\users\\gabriel\\source\\repos\\exerciciosmatriz\\exerciciosmatriz\\exercicio_10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|solutionrelative:exerciciosmatriz\\exercicio_10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|c:\\users\\gabriel\\source\\repos\\exerciciosmatriz\\exerciciosmatriz\\exerciciosmatriz.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|solutionrelative:exerciciosmatriz\\exerciciosmatriz.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|c:\\users\\gabriel\\source\\repos\\exerciciosmatriz\\exerciciosmatriz\\exercicio_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|solutionrelative:exerciciosmatriz\\exercicio_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|c:\\users\\gabriel\\source\\repos\\exerciciosmatriz\\exerciciosmatriz\\exerciciosmatriz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|solutionrelative:exerciciosmatriz\\exerciciosmatriz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|c:\\users\\gabriel\\source\\repos\\exerciciosmatriz\\exerciciosmatriz\\exercicio_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E59C0A-C70D-4E21-8B30-4A0E91ADAF57}|ExerciciosMatriz\\ExerciciosMatriz.csproj|solutionrelative:exerciciosmatriz\\exercicio_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,65 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Exercicio_10.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_10.cs",
-              "RelativeDocumentMoniker": "ExerciciosMatriz\\Exercicio_10.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_10.cs",
-              "RelativeToolTip": "ExerciciosMatriz\\Exercicio_10.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:04:08.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExerciciosMatriz",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\ExerciciosMatriz.csproj",
-              "RelativeDocumentMoniker": "ExerciciosMatriz\\ExerciciosMatriz.csproj",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\ExerciciosMatriz.csproj",
-              "RelativeToolTip": "ExerciciosMatriz\\ExerciciosMatriz.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T19:01:19.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ExerciciosMatriz",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\ExerciciosMatriz.csproj",
               "RelativeDocumentMoniker": "ExerciciosMatriz\\ExerciciosMatriz.csproj",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\ExerciciosMatriz.csproj",
               "RelativeToolTip": "ExerciciosMatriz\\ExerciciosMatriz.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T19:01:21.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Exercicio_9.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_9.cs",
-              "RelativeDocumentMoniker": "ExerciciosMatriz\\Exercicio_9.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_9.cs",
-              "RelativeToolTip": "ExerciciosMatriz\\Exercicio_9.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:00:32.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Exercicio_8.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_8.cs",
-              "RelativeDocumentMoniker": "ExerciciosMatriz\\Exercicio_8.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\ExerciciosMatriz\\ExerciciosMatriz\\Exercicio_8.cs",
-              "RelativeToolTip": "ExerciciosMatriz\\Exercicio_8.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:55:08.152Z",
+              "WhenOpened": "2024-11-15T20:46:23.084Z",
               "EditorCaption": ""
             }
           ]

@@ -42,6 +42,7 @@ using Biblioteca_Matriz;
 
             Console.WriteLine("Matriz Gerada");
             Matriz.mostra(matriz);
+            Console.WriteLine();
 
             Console.WriteLine("Diagonal Principal:");
             diagonalPrincipal(matriz);
