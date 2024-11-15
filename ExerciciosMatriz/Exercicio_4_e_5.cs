@@ -1,9 +1,8 @@
 ﻿using System;
 using Biblioteca_Matriz;
-
- class Exercicio_4_e_5
+class Exercicio_4_e_5
  {
-    static void diagonalPrincipal(int[,] mat)
+    static void diagonalPrinc(int[,] mat)
     {
         int linhas = mat.GetLength(0);
         for (int i = 0; i < linhas; i++)
@@ -11,7 +10,7 @@ using Biblioteca_Matriz;
        
         Console.WriteLine();
     }
-    static void diagonalSecundaria(int[,] matriz)
+    static void diagonalSecun(int[,] matriz)
     {
         int linhas = matriz.GetLength(0);
         int colunas = matriz.GetLength(1);
@@ -27,30 +26,31 @@ using Biblioteca_Matriz;
     {
         int linhas, cols;
 
+        Console.WriteLine("**Matriz**");
         Console.Write("Quantidade de linhas: ");
         linhas = int.Parse(Console.ReadLine());
 
         Console.Write("Quantidade de colunas: ");
         cols = int.Parse(Console.ReadLine());
 
-        Console.WriteLine();
+        Console.Clear();
 
         if(linhas == cols) { 
-            int[,] matriz = new int[linhas, cols];// criando a matriz
+            int[,] matriz = new int[linhas, cols];
 
             Matriz.gera(matriz);
 
-            Console.WriteLine("Matriz Gerada");
+            Console.WriteLine("Matriz Gerada: ");
             Matriz.mostra(matriz);
             Console.WriteLine();
 
-            Console.WriteLine("Diagonal Principal:");
-            diagonalPrincipal(matriz);
+            Console.WriteLine("Diagonal Principal: ");
+            diagonalPrinc(matriz);
 
             Console.WriteLine();
 
-            Console.WriteLine("Diagonal Secundária:");
-            diagonalSecundaria(matriz);
+            Console.WriteLine("Diagonal Secundária: ");
+            diagonalSecun(matriz);
 
         }
         else

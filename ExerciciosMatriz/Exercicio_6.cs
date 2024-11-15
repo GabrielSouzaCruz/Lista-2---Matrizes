@@ -1,9 +1,9 @@
 ﻿using System;
 using Biblioteca_Matriz;
 
-    internal class Exercicio_6
+class Exercicio_6
     {
-        public static int[,] SomaMatriz(int[,] matriz1, int[,] matriz2)
+        public static int[,] soma(int[,] matriz1, int[,] matriz2)
         {
             int linhas = matriz1.GetLength(0);
             int cols = matriz1.GetLength(1);
@@ -60,7 +60,7 @@ using Biblioteca_Matriz;
                     Console.WriteLine("A soma das duas matrizes é: ");
 
 
-            int[,] resultado = SomaMatriz(matriz1, matriz2);
+            int[,] resultado = soma(matriz1, matriz2);
 
                 for (int i = 0; i < resultado.GetLength(0); i++)
                 {

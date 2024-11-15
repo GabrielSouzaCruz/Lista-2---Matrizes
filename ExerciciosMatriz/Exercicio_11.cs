@@ -1,13 +1,14 @@
-﻿using Biblioteca_Matriz;
-using System;
+﻿using System;
+using Biblioteca_Matriz;
 
 class Exercicio_11
 {
-    static int diagonalPrincipal(int[,] matriz)
+    static int diagonalPrinc(int[,] matriz)
     {
         int soma = 0;
         int linhas = matriz.GetLength(0);
         int colunas = matriz.GetLength(1);
+
         for (int i = 0; i < linhas; i++)
         {
             for (int j = 0; j < colunas; j++)
@@ -21,10 +22,11 @@ class Exercicio_11
         return soma;
     }
 
-    static int diagonalSecundaria(int[,] matriz)
+    static int diagonalSecun(int[,] matriz)
     {
         int soma = 0;
         int colunas = matriz.GetLength(0);
+
         for (int i = 0; i < colunas; i++)
         {
             soma += matriz[i, colunas - 1 - i];
@@ -51,12 +53,12 @@ class Exercicio_11
 
         Console.WriteLine();
 
-        Console.WriteLine($"Soma diagonal Principal = {diagonalPrincipal(matriz)}");
-        Console.WriteLine($"Soma diagonal Secundaria = {diagonalSecundaria(matriz)}");
+        Console.WriteLine($"Soma diagonal Principal = {diagonalPrinc(matriz)}");
+        Console.WriteLine($"Soma diagonal Secundaria = {diagonalSecun(matriz)}");
 
         Console.WriteLine();
 
-        if (diagonalSecundaria(matriz) > diagonalPrincipal(matriz))
+        if (diagonalSecun(matriz) > diagonalPrinc(matriz))
         {
             Console.WriteLine("O maior tesouro esta na diagonal secundaria, vamos la");
         }

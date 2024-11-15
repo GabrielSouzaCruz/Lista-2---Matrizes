@@ -3,7 +3,7 @@ using Biblioteca_Matriz;
 
 class Exercicio_8
 {
-    static void build(int[,] mat)
+    static void gera(int[,] mat)
     {
         Random rand = new Random();
 
@@ -22,7 +22,7 @@ class Exercicio_8
         int x;
         int y;
         int result = 0;
-        build(mat);
+        gera(mat);
 
         Console.Write("Quantidade de raios: ");
         int cont = int.Parse(Console.ReadLine());
@@ -41,8 +41,6 @@ class Exercicio_8
             mat[x, y]++;
 
         }
-
-
 
         for (int i = 0; i < mat.GetLength(0); i++)
         {

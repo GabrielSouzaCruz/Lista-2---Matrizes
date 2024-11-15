@@ -1,9 +1,9 @@
 ﻿using System;
 using Biblioteca_Matriz;
-    internal class Exercicio_7
+class Exercicio_7
     {
 
-        static double[,] SomaMatriz(double[,] matriz1, double[,] matriz2, int linhas, int cols)
+        static double[,] SomaM(double[,] matriz1, double[,] matriz2, int linhas, int cols)
         {
             double[,] resultado = new double[linhas, cols];
             for (int i = 0; i < linhas; i++)
@@ -15,7 +15,7 @@ using Biblioteca_Matriz;
             }
             return resultado;
         }
-        static double[,] SubtraiMatriz(double[,] matriz1, double[,] matriz2, int linhas, int cols)
+        static double[,] SubtraiM(double[,] matriz1, double[,] matriz2, int linhas, int cols)
         {
             double[,] resultado = new double[linhas, cols];
             for (int i = 0; i < linhas; i++)
@@ -28,7 +28,7 @@ using Biblioteca_Matriz;
             return resultado;
         }
 
-        static void Constante(double[,] matriz, double constante, int linhas, int cols)
+        static void Const(double[,] matriz, double constante, int linhas, int cols)
         {
             for (int i = 0; i < linhas; i++)
             {
@@ -92,7 +92,7 @@ using Biblioteca_Matriz;
             {
                 case '1':
 
-                    double[,] soma = SomaMatriz(matriz1, matriz2, linhas, cols);
+                    double[,] soma = SomaM(matriz1, matriz2, linhas, cols);
 
                     Console.WriteLine("Resultado da soma das matrizes: ");
                     Console.WriteLine();
@@ -101,7 +101,7 @@ using Biblioteca_Matriz;
                     break;
 
                 case '2':
-                    double[,] subtracao = SubtraiMatriz(matriz2, matriz1, linhas, cols);
+                    double[,] subtracao = SubtraiM(matriz2, matriz1, linhas, cols);
 
                     Console.WriteLine("Resultado da subtração da primeira matriz da segunda: ");
                     Console.WriteLine();
@@ -114,8 +114,8 @@ using Biblioteca_Matriz;
 
                     double constante = double.Parse(Console.ReadLine());
 
-                    Constante(matriz1, constante, linhas, cols);
-                    Constante(matriz2, constante, linhas2, cols2);
+                    Const(matriz1, constante, linhas, cols);
+                    Const(matriz2, constante, linhas2, cols2);
 
                     Console.WriteLine();
 

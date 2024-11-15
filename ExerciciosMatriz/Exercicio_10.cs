@@ -1,7 +1,7 @@
 ﻿using System;
 using Biblioteca_Matriz;
 
-    class Exercicio_10
+class Exercicio_10
     {
     public static void mostra(int[,] mat)
     {
@@ -21,10 +21,10 @@ using Biblioteca_Matriz;
 
     static void Main()
     {
-        Console.Write("Quantas regioes? ");
+        Console.Write("Numero de regioes: ");
         int linha = int.Parse(Console.ReadLine());
 
-        Console.Write("Quantas cidades? ");
+        Console.Write("Numero de cidades: ");
         int cols = int.Parse(Console.ReadLine());
 
         Console.Clear();

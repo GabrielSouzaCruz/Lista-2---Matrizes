@@ -3,7 +3,7 @@ using Biblioteca_Matriz;
 
 public class Atividade_3
 {
-    public static int EncontreX(int[,] matriz, int x)
+    public static int X(int[,] matriz, int x)
     {
         int cont = 0;
         int linhas = matriz.GetLength(0); 
@@ -23,14 +23,14 @@ public class Atividade_3
     }
     static void Main()
     {
-
+        Console.WriteLine("**Matriz**");
         Console.Write("Quantidade de linhas: ");
         int linhas = int.Parse(Console.ReadLine());
 
         Console.Write("Quantidade de colunas: ");
         int cols = int.Parse(Console.ReadLine());
 
-        Console.WriteLine();
+        Console.Clear();
 
         int[,] matriz = new int[linhas, cols];
 
@@ -38,13 +38,17 @@ public class Atividade_3
 
         Console.Write("Digite um número X para contar quantas vezes ele aparece: ");
         int x = int.Parse(Console.ReadLine());
+        Console.WriteLine();
 
         Console.WriteLine("Matriz Gerada: ");
         Matriz.mostra(matriz);
+        
 
-        int quant = EncontreX(matriz, x);
+        int xenc = X(matriz, x);
 
-        Console.WriteLine($"\nNúmero de vezes que o {x} foi digitado é : {quant}");
+        Console.WriteLine();
+
+        Console.WriteLine($"Número de vezes que o {x} foi digitado é: {xenc}");
 
         Console.ReadKey();
     }
